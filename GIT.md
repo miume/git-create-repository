@@ -65,9 +65,12 @@ git commit --amend  //修改提交说明
 
 /**撤销上一次提交commit*/
 git reset --hard HEAD~1
+
+/**撤销提交 回滚修改，重新生成一个新的提交*/
+git revert <commitID>
 ```
 
-**提交过后发现有个文件改错了，或者只想修改提交说明！！！！！！！！**
+
 
 ## 远程仓库
 
