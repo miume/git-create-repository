@@ -62,9 +62,12 @@ git commit --amend -m [message]
 /**若提交过后发现有个文件改错了,可以修改file文件*/
 git commit [file] --amend 
 git commit --amend  //修改提交说明
+
+/**撤销上一次提交commit*/
+git reset --hard HEAD~1
 ```
 
-
+**提交过后发现有个文件改错了，或者只想修改提交说明！！！！！！！！**
 
 ## 远程仓库
 
