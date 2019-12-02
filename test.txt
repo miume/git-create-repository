@@ -1,0 +1,2 @@
+学习git好难呀
+git commit test.txt --amend  //提交发现test.txt文件改错了
