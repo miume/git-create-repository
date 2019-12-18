@@ -17,10 +17,11 @@
   /**查看文件修改后的差异(工作区和暂存区文件的差异)*/
   git diff [file]
   
+  ```
+
 /**删除未跟踪的文件*/
   rm file1
   ```
-  
   
 
 ## 版本库（工作区有一个隐藏目录.git，属于Git版本库）
@@ -44,8 +45,8 @@
   /**修改文件名称 将a.text名称修改为b.text*/
   git mv a.text b.text
   
-```
-  
+  ```
+
   
 
 ## 本地仓库
@@ -187,4 +188,6 @@ git clone url
 ```
 
 
+
+[https://www.cnblogs.com/best/p/7474442.html]:参考文章
 
