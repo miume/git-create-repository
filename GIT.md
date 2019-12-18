@@ -1,4 +1,4 @@
-##工作区
+## 工作区
 
 - ##### 电脑里的本地项目
 
@@ -17,9 +17,7 @@
   /**查看文件修改后的差异(工作区和暂存区文件的差异)*/
   git diff [file]
   
-  ```
-
-/**删除未跟踪的文件*/
+  /**删除未跟踪的文件*/
   rm file1
   ```
   
@@ -133,7 +131,7 @@ git stash pop   //将暂存区的内容恢复到工作区
 
 - 主分支master分支，Head指向当前分支，master指向提交
 
-  ![img](https://img2018.cnblogs.com/blog/63651/201809/63651-20180920210647291-1528543055.png)
+  ![img](./image/img1.png)
 
   - Git创建一个分支很快，增加一个dev指针，改改HEAD的指向，工作区的文件都没有任何变化
 
@@ -143,7 +141,7 @@ git stash pop   //将暂存区的内容恢复到工作区
 
     
 
-![git-br-dev-fd](https://www.liaoxuefeng.com/files/attachments/0013849088235627813efe7649b4f008900e5365bb72323000/0)
+![git-br-dev-fd](./image/img2.png)
 
 - 合并分支：将master指向dev的当前提交
 
@@ -151,7 +149,7 @@ git stash pop   //将暂存区的内容恢复到工作区
   git merge new-branch
   ```
 
-  ![git-br-ff-merge](https://www.liaoxuefeng.com/files/attachments/00138490883510324231a837e5d4aee844d3e4692ba50f5000/0)
+  ![git-br-ff-merge](./image/img3.png)
 
 - 删除分支：删除dev指针即可
 
@@ -159,7 +157,7 @@ git stash pop   //将暂存区的内容恢复到工作区
   git branch -d new-branch
   ```
 
-  ![git-br-rm](https://www.liaoxuefeng.com/files/attachments/001384908867187c83ca970bf0f46efa19badad99c40235000/0)
+  ![git-br-rm](./image/img4.png)
 
 
 
